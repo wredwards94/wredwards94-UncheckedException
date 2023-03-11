@@ -15,6 +15,6 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException() throws ArithmeticException{
-        throw new ArithmeticException();
+        throw new ArithmeticException()
     }
 }
